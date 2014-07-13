@@ -44,7 +44,7 @@
 	</dependencies>
 
 	<build>
-		<defaultGoal>clean install</defaultGoal>
+		<defaultGoal>clean install test</defaultGoal>
 		<finalName>multiagents-rpg-api</finalName>
 		<pluginManagement>
 			<plugins>
