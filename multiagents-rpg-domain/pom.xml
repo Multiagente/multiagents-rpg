@@ -1,10 +1,35 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <parent>
-    <groupId>br.unb.sma</groupId>
-    <artifactId>multiagents-rpg</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-  </parent>
-  <artifactId>multiagents-rpg-domain</artifactId>
-  <name>Multiagents RPG Domain</name>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>br.unb.sma</groupId>
+		<artifactId>multiagents-rpg</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>multiagents-rpg-domain</artifactId>
+	<name>Multiagents RPG Domain</name>
+
+	<dependencies>
+		<!-- Agents Dependencies -->
+		<!-- JADE - Agents Framework -->
+		<dependency>
+			<groupId>net.sf.ingenias</groupId>
+			<artifactId>jade</artifactId>
+			<version>3.7</version>
+		</dependency>
+
+		<dependency>
+			<groupId>net.sf.ingenias</groupId>
+			<artifactId>jadeTools</artifactId>
+			<version>3.7</version>
+		</dependency>
+
+		<dependency>
+			<groupId>net.sf.ingenias</groupId>
+			<artifactId>common-codec</artifactId>
+			<version>1.3</version>
+		</dependency>
+	</dependencies>
 </project>
