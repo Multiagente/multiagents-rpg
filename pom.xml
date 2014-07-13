@@ -5,4 +5,8 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>Multiagents RPG</name>
+  <modules>
+  	<module>multiagents-rpg-domain</module>
+  	<module>multiagents-rpg-api</module>
+  </modules>
 </project>
