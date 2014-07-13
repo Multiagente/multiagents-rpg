@@ -14,9 +14,11 @@
 	<dependencies>
 		<!-- Module Dependencies -->
 		<!-- Multiagents RPG - Domain -->
-		<groupId>br.unb.sma</groupId>
-		<artifactId>multiagents-rpg-api</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<dependency>
+			<groupId>br.unb.sma</groupId>
+			<artifactId>multiagents-rpg-domain</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 
 		<!-- Persistence Dependencies -->
 		<!-- MongoDB - Mongo Driver for Java -->
