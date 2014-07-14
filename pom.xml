@@ -52,7 +52,7 @@
 
 	<build>
 		<defaultGoal>clean install</defaultGoal>
-		<finalName>multiagents-rpg-api</finalName>
+		<finalName>multiagents-rpg</finalName>
 		<pluginManagement>
 			<plugins>
 				<!-- Maven Compiler -->
